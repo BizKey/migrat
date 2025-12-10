@@ -2,7 +2,7 @@ CREATE TABLE IF NOT EXISTS symbol (
     id SERIAL PRIMARY KEY,
     exchange VARCHAR(50) NOT NULL,
     symbol VARCHAR(50),
-    name VARCHAR(100),
+    symbol_name VARCHAR(100),
     base_currency VARCHAR(50),
     quote_currency VARCHAR(50),
     fee_currency VARCHAR(50),

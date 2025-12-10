@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS balance (
     hold_change VARCHAR NOT NULL,
     relation_event VARCHAR NOT NULL,
     relation_event_id VARCHAR NOT NULL,
-    time VARCHAR NOT NULL,
+    event_time VARCHAR NOT NULL,
     total VARCHAR NOT NULL,
     symbol VARCHAR,
     order_id VARCHAR,
