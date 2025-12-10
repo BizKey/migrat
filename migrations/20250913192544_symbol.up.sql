@@ -22,13 +22,6 @@ CREATE TABLE IF NOT EXISTS symbol (
     maker_fee_coefficient VARCHAR(50),
     taker_fee_coefficient VARCHAR(50),
     st BOOLEAN,
-    callauction_is_enabled BOOLEAN,
-    callauction_price_floor VARCHAR(50),
-    callauction_price_ceiling VARCHAR(50),
-    callauction_first_stage_start_time BIGINT,
-    callauction_second_stage_start_time BIGINT,
-    callauction_third_stage_start_time BIGINT,
-    trading_start_time BIGINT,
 
     UNIQUE (exchange, symbol)
 )
