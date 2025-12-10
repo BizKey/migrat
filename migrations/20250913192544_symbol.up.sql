@@ -22,6 +22,7 @@ CREATE TABLE IF NOT EXISTS symbol (
     maker_fee_coefficient VARCHAR(50),
     taker_fee_coefficient VARCHAR(50),
     st BOOLEAN,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
 
     UNIQUE (exchange, symbol)
 )
