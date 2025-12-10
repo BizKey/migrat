@@ -1,4 +1,3 @@
--- Add up migration script here
 CREATE TABLE IF NOT EXISTS positionasset (
     id SERIAL PRIMARY KEY,
     exchange VARCHAR NOT NULL,
