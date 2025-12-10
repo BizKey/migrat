@@ -1,2 +1,0 @@
--- Add up migration script here
-ALTER TABLE ticker DROP COLUMN created_at, DROP COLUMN buy, DROP COLUMN best_bid_size, DROP COLUMN sell, DROP COLUMN best_ask_size, DROP COLUMN change_rate, DROP COLUMN change_price, DROP COLUMN high, DROP COLUMN low, DROP COLUMN vol, DROP COLUMN vol_value, DROP COLUMN last, DROP COLUMN average_price;

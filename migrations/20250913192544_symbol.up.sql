@@ -1,0 +1,28 @@
+CREATE TABLE IF NOT EXISTS symbol (
+    id SERIAL PRIMARY KEY,
+    exchange VARCHAR(50) NOT NULL,
+    symbol VARCHAR(50),
+    symbol_name VARCHAR(100),
+    base_currency VARCHAR(50),
+    quote_currency VARCHAR(50),
+    fee_currency VARCHAR(50),
+    market VARCHAR(50),
+    base_min_size VARCHAR(50),
+    quote_min_size VARCHAR(50),
+    base_max_size VARCHAR(50),
+    quote_max_size VARCHAR(50),
+    base_increment VARCHAR(50),
+    quote_increment VARCHAR(50),
+    price_increment VARCHAR(50),
+    price_limit_rate VARCHAR(50),
+    min_funds VARCHAR(50),
+    is_margin_enabled BOOLEAN,
+    enable_trading BOOLEAN,
+    fee_category SMALLINT,
+    maker_fee_coefficient VARCHAR(50),
+    taker_fee_coefficient VARCHAR(50),
+    st BOOLEAN,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+
+    UNIQUE (exchange, symbol)
+)
