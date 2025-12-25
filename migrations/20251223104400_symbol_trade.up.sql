@@ -3,5 +3,5 @@ CREATE TABLE IF NOT EXISTS symbol_trade (
     exchange VARCHAR NOT NULL,
     symbol VARCHAR NOT NULL,
     size VARCHAR NOT NULL,
-    enable BOOLEAN
+    enable BOOLEAN NOT NULL,
 );
