@@ -1,8 +1,6 @@
 CREATE TABLE IF NOT EXISTS msgsend (
     id SERIAL PRIMARY KEY,
     exchange VARCHAR NOT NULL,
-    id_msg VARCHAR,
-    op VARCHAR,
     args_symbol VARCHAR,
     args_side VARCHAR,
     args_size VARCHAR,
