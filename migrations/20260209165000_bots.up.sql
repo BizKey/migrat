@@ -4,5 +4,6 @@ CREATE TABLE IF NOT EXISTS bots (
     entry_id VARCHAR NULL,
     exit_tp_id VARCHAR NULL,
     exit_sl_id VARCHAR NULL,
-    balance VARCHAR NULL
+    balance VARCHAR NULL,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
