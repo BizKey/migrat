@@ -1,0 +1,1 @@
+ALTER TABLE orderevent ALTER COLUMN client_oid DROP NOT NULL;
