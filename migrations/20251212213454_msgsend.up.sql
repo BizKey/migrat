@@ -4,6 +4,7 @@ CREATE TABLE IF NOT EXISTS msgsend (
     args_symbol VARCHAR,
     args_side VARCHAR,
     args_size VARCHAR,
+    args_funds VARCHAR,
     args_price VARCHAR,
     args_time_in_force VARCHAR,
     args_type VARCHAR,
