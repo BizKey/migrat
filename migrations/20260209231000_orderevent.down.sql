@@ -1,1 +1,0 @@
-ALTER TABLE orderevent ALTER COLUMN client_oid SET NOT NULL;
