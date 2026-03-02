@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS orderevent (
     liquidity VARCHAR,
     price VARCHAR,
     order_id VARCHAR NOT NULL,
-    client_oid VARCHAR NOT NULL,
+    client_oid VARCHAR,
     trade_id VARCHAR,
     origin_size VARCHAR,
     size VARCHAR,
