@@ -1,0 +1,2 @@
+ALTER TABLE currency 
+DROP COLUMN IF EXISTS precision;
