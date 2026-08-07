@@ -1,0 +1,2 @@
+ALTER TABLE bots 
+ADD COLUMN IF NOT EXISTS entry_price VARCHAR;
