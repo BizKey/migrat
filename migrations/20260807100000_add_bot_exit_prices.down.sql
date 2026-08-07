@@ -1,0 +1,3 @@
+ALTER TABLE bots 
+DROP COLUMN IF EXISTS exit_tp_price,
+DROP COLUMN IF EXISTS exit_sl_price;
