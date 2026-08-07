@@ -1,0 +1,2 @@
+ALTER TABLE bots 
+DROP COLUMN IF EXISTS entry_price;
