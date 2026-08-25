@@ -1,0 +1,1 @@
+CREATE INDEX IF NOT EXISTS idx_sendorders_updated_at ON sendorders (updated_at DESC);
