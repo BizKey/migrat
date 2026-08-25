@@ -1,0 +1,1 @@
+DROP INDEX IF EXISTS idx_sendorders_updated_at;
