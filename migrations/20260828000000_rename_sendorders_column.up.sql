@@ -1,0 +1,11 @@
+ALTER TABLE sendorders RENAME COLUMN args_symbol TO symbol;
+ALTER TABLE sendorders RENAME COLUMN args_side TO side;
+ALTER TABLE sendorders RENAME COLUMN args_size TO size;
+ALTER TABLE sendorders RENAME COLUMN args_funds TO funds;
+ALTER TABLE sendorders RENAME COLUMN args_price TO price;
+ALTER TABLE sendorders RENAME COLUMN args_time_in_force TO time_in_force;
+ALTER TABLE sendorders RENAME COLUMN args_type TO order_type;
+ALTER TABLE sendorders RENAME COLUMN args_auto_borrow TO auto_borrow;
+ALTER TABLE sendorders RENAME COLUMN args_auto_repay TO auto_repay;
+ALTER TABLE sendorders RENAME COLUMN args_client_oid TO client_oid;
+ALTER TABLE sendorders RENAME COLUMN args_order_id TO order_id;
